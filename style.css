@@ -1,0 +1,21 @@
+
+body{
+  background-color: black !important;;
+}
+.container{
+  background-color: black;
+}
+
+.jumbotron{
+  background-color: black;
+}
+
+.logo{
+  width: 200px;
+  border-radius: 100%;
+  margin-top: -50px;
+}
+
+#internalPage{
+
+}
