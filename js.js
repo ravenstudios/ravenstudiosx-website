@@ -3,17 +3,30 @@ $(()=>{
   console.log("jquerry");
 
   $("#enigma").click(()=>{
-    $("#internalPage").html('<object data="http://ravenstudiosx.com/enigma" width="1200px" height="750px" style="border:5px;  margin-left: -50px; ridge blue"/>');
+    $("#internalPage").html('<object data="http://ravenstudiosx.com/enigma" class="enigma"/>');
+    $('html, body').animate({
+      scrollTop: ($('#internalPage').offset().top)
+    },500);
   });
 
   $("#iss").click(()=>{
-    $("#internalPage").html('<object data="http://ravenstudiosx.com/iss" width="1200px" height="800px" style="border:5px;  margin-left: -200px;  ridge blue"/>');
+    $("#internalPage").html('<object data="http://localhost/iss/" class="iss"/>');
+    $('html, body').animate({
+      scrollTop: ($('#internalPage').offset().top)
+    },500);
   });
 
   $("#tictactoe").click(()=>{
-    $("#internalPage").html('<object data="http://ravenstudiosx.com/tictactoe" width="1000px" height="600px" style="border:5px;  margin-left: -10px; ridge blue"/>');
+    $("#internalPage").html('<object data="http://ravenstudiosx.com/tictactoe" class="tictactoe"/>');
+    $('html, body').animate({
+      scrollTop: ($('#internalPage').offset().top)
+    },500);
+  });
 
+  $("#bttf").click(()=>{
+    $("#internalPage").html('<object data="http://ravenstudiosx.com/bttf" class="bttf"/>');
+    $('html, body').animate({
+      scrollTop: ($('#internalPage').offset().top)
+    },500);
   });
 });
-//style="overflow:auto;border:5px ridge blue"
-// margin-left: -200px;;

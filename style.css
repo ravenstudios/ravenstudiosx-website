@@ -1,6 +1,6 @@
 
 body{
-  background-color: black !important;;
+  /*background-color: black !important;;*/
 }
 .container{
   background-color: black;
@@ -16,6 +16,48 @@ body{
   margin-top: -50px;
 }
 
-#internalPage{
+.screenShotButton{
+  width: 250px;
+  height: 150px;
+}
+
+.portfolio{
+  background-color: red;
+}
+
+.scale{
+  /*zoom: 0.8;
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);*/
+}
+
+.iss{
+  zoom: 0.65;
+  -moz-transform: scale(0.65);
+  -webkit-transform: scale(0.65);
+  transform: scale(0.65);
+  width: 2500px;
+  height: 1500px;
+  margin-left: -395px;
+}
+
+.enigma{
+  zoom: 0.8;
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  margin-left: -65px;
+  width: 1500px;
+  height: 950px;
+}
+.tictactoe{
+  width: 1000px;
+  height: 600px;
+}
+
+.bttf{
+  width: 700px;
+  height: 480px;
 
 }
