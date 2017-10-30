@@ -10,7 +10,7 @@ $(()=>{
   });
 
   $("#iss").click(()=>{
-    $("#internalPage").html('<object data="http://localhost/iss/" class="iss"/>');
+    $("#internalPage").html('<object data="http://ravenstudiosx.com/iss" class="iss"/>');
     $('html, body').animate({
       scrollTop: ($('#internalPage').offset().top)
     },500);
@@ -29,4 +29,20 @@ $(()=>{
       scrollTop: ($('#internalPage').offset().top)
     },500);
   });
+
+  $("#modes").click(()=>{
+    $("#internalPage").html('<object data="http://ravenstudiosx.com/modes" class="modes"/>');
+    $('html, body').animate({
+      scrollTop: ($('#internalPage').offset().top)
+    },500);
+  });
+
+  $("#pomodoro").click(()=>{
+    $("#internalPage").html('<object data="http://ravenstudiosx.com/pomodoro" class="pomodoro"/>');
+    $('html, body').animate({
+      scrollTop: ($('#internalPage').offset().top)
+    },500);
+  });
+
+
 });
